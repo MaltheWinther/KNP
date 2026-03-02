@@ -1,14 +1,4 @@
-/* UDP measurement server for Øvelse 7
-   Listens on port 9000.
-   Responds to:
-     'U' or 'u' -> content of /proc/uptime
-     'L' or 'l' -> content of /proc/loadavg
-     anything else -> error message
 
-   Start with: ./measurement_server
-
-   Based on demo by Michael Alrøe
-*/
 
 #include <sys/types.h>
 #include <sys/socket.h>

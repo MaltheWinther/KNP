@@ -1,11 +1,4 @@
-/* UDP measurement client for Øvelse 7
-   Sends a command character to the measurement server and prints the response.
 
-   Usage: ./get_measurement <server-ip> <cmd>
-   Example: ./get_measurement 172.16.15.2 u
-
-   Based on demo by Michael Alrøe
-*/
 
 #include <sys/types.h>
 #include <sys/socket.h>
